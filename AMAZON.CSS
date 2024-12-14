@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 40px;
+    width: 100px;
+}
+
+.logo{
+    background-color: rgb(113, 107, 99);
+    height: 40px;
+    width: 100%;
+    background-size: cover;
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/*box2*/
+.add1{
+    color: #cccccc;
+    font: size 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+/*box3*/
+.navsearch{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(244, 193, 7);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.navsearch:hover{
+    border: 2px solid orange ;
+}
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav123{
+   font-size: 0.85rem;
+   font-weight: 700;
+}
+/**box6**/
+.navcart i{
+    font-size: 30px;
+}
+.navcart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+     justify-content: space-evenly;
+}
+.panelopt p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelopt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+/**herosection**/
+.herosection{
+    background-image: url("template.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromessage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.heromessage a{
+    color: #007185;
+}
+/**shopsection**/
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+.b{
+    height: 320px;
+    width: 21%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+     }
+ .back-img{
+    height:280px ;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    }   
+    .b p{
+        color: #007185;
+    }
+    /** foooter**/
+    footer{
+        margin-top: 15px;
+    }
+    .footpanel1{
+        color: white;
+        background-color: #222f3d;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+        }
+        .footpanel2{
+            background-color: rgb(113, 107, 99);
+            color: white;
+            display: flex;
+            height: 300px;
+            justify-content: space-evenly;
+           
+        }
+        ul a{
+            display: block;
+            font-size: 0.85rem;
+            margin-top: 8px;
+            color: #0b0c0f;
+            }
+            ul p{
+                margin-top: 10px;
+            }
+.footpanel3{
+    background-color: rgb(113, 107, 99);
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    background-image: url("ddsds.png");
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+}
+.footpanel4{
+    background-color: #0b0c0f;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+text-align: center;
+    /**display: flex;
+    justify-content: center;
+    align-items: center;**/
+}
+.pages{
+padding-top: 25px;
+}
+
+.copyright{
+    margin-top: 5px;
+}
